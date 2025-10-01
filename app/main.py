@@ -2,7 +2,9 @@ from typing import List
 
 
 class Car:
-    def __init__(self, comfort_class: int, clean_mark: int, brand: str) -> None:
+    def __init__(
+        self, comfort_class: int, clean_mark: int, brand: str
+    ) -> None:
         self.comfort_class = comfort_class  # 1 to 7
         self.clean_mark = clean_mark        # 1 to 10
         self.brand = brand
